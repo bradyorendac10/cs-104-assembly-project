@@ -80,7 +80,7 @@ mov x20, x0
 	// The last sub-problem to solve in the main function is to give
 	// ourselves some space to store the characters we read from the
 	// file.
-	sub sp, sp, #16. // sp = sp - 16
+	sub sp, sp, #16 // sp = sp - 16
 	// We will use sp for this. Remember that when our program starts,
 	// sp can't hold anything. In order to store values into sp, we
 	// need to *subtract* sp by the amount of data we want to store.
