@@ -143,5 +143,5 @@ error:				// Start of the error function
 	// means there was an error. You don't need to be fancy here:
 	// exiting with 1 is perfectly good.
 mov x0, #1
-	mov x16. #1		// Put the number 1 into register x16 (exit)
+	mov x16, #1		// Put the number 1 into register x16 (exit)
 	svc #0x80		// Call the exit function with 1 argument
